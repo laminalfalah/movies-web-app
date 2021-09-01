@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import {ExtraOptions, RouterModule, Routes} from '@angular/router';
 import {environment} from "@/environment";
-import {errorRouting} from "@/modules/error/error.routing";
+import {ErrorComponent} from "@/modules/error/error.component";
 
 const config: ExtraOptions = {
   useHash: true,
@@ -21,7 +21,10 @@ const routes: Routes = [
     redirectTo: "",
     pathMatch: "full"
   },
-  //...errorRouting
+  {
+    path: "**",
+    component: ErrorComponent
+  }
 ];
 
 @NgModule({
