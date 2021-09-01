@@ -1,0 +1,12 @@
+<div class="col">
+  <div class="card h-100">
+    <img *ngIf="movie.poster_path" [src]="posterImageUrl" class="card-img-top" alt="poster">
+    <div class="card-body">
+      <h5 class="card-title text-truncate">
+        <a [routerLink]="['/detail', movie.id]" class="text-decoration-none">{{ movie.title }}</a>
+      </h5>
+      <p class="card-text">Year: {{ movie.release_date }}</p>
+      <ngb-rating [rate]="movie.vote_average" [readonly]="true" [max]="5"></ngb-rating>
+    </div>
+  </div>
+</div>

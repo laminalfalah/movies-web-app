@@ -1,0 +1,27 @@
+name: Publish to Docker Hub
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+  publish:
+    if: github.repository == 'laminalfalah/movies-web-app'
+    runs-on: ubuntu-latest
+    name: Publish to Docker Hub
+    steps:
+      - uses: actions/checkout@v2
+      - name: Login to Dockerhub Registry
+        run: echo ${{ secrets.DOCKER_HUB_PASSWORD }} | docker login -u ${{ secrets.DOCKER_HUB_USERNAME }} --password-stdin
+      - name: Get the Version
+        id: vars
+        run: echo ::set-output name=tag::$(echo ${GITHUB_REF:10})
+      - name: Build the Tagged Docker Image
+        run: docker build . --file Dockerfile --tag laminalfalah/movies-web-app:$({steps.vars.outputs.tag})
+      - name: Push the Tagged Docker Image
+        run: docker push laminalfalah/movies-web-app:$({steps.vars.outputs.tag})
+      - name: Build the Latest Docker Image
+        run: docker build . --file Dockerfile --tag laminalfalah/movies-web-app:latest
+      - name: Push the Latest Docker Image
+        run: docker push laminalfalah/movies-web-app:latest

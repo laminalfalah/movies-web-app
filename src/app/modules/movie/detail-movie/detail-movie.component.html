@@ -1,0 +1,19 @@
+<div class="container">
+  <img *ngIf="imageUrl" class="card-img-top" [src]="imageUrl" alt="Card image cap"/>
+  <div class="clearfix"></div>
+  <div class="card">
+    <h5 class="card-header">{{ movie.title }}</h5>
+    <div class="card-body">
+      <h5 class="card-title">{{ movie.title }}</h5>
+      <p>
+        <strong>Release Date: </strong> {{ movie.release_date }}
+        <strong>Vote Count: </strong> {{ movie.vote_count }}
+        <ngb-rating [rate]="movie.vote_average" [readonly]="true" [max]="5"></ngb-rating>
+        <a (click)="onSave()" class="btn btn-sm btn-primary">
+          <em class="fa fa-bookmark"></em>
+        </a>
+      </p>
+      <p class="card-text">{{ movie.overview }}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  movies-web-app:
+    container_name: movies-web-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "9000:80"

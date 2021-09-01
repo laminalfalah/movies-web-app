@@ -1,0 +1,7 @@
+node_modules/
+karma.conf.js
+webpack/
+build/
+dist/
+.idea
+sonar-project.properties

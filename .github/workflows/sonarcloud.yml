@@ -1,0 +1,21 @@
+name: Sonarcloud Analyze
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  analyze:
+    if: github.repository == 'laminalfalah/movies-web-app'
+    name: Sonarcloud Analyze
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Sonarcloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
