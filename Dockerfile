@@ -9,7 +9,7 @@ RUN npm install -g -E @angular/cli @angular/compiler @angular-devkit/core @angul
 
 RUN npm ci
 
-RUN npm run build --configuration production
+RUN npm run build
 
 ### Stage 2: Run ###
 FROM nginx:stable-alpine
