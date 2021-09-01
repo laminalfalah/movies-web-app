@@ -1,0 +1,115 @@
+{
+  "configVersion": 1,
+  "timestamp": 1630530154736,
+  "index": "/movies-web-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/movies-web-app/737.2a5822c6754191410402.js",
+        "/movies-web-app/favicon.ico",
+        "/movies-web-app/index.html",
+        "/movies-web-app/main.645367b6138fdee9a62c.js",
+        "/movies-web-app/manifest.webmanifest",
+        "/movies-web-app/polyfills.e6e5e82ebe01133d698d.js",
+        "/movies-web-app/runtime.f385d65f8a84df9e1323.js",
+        "/movies-web-app/scripts.f22ea8f40662ea720806.js",
+        "/movies-web-app/styles.0b83c456cc224dfa6f12.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/movies-web-app/assets/icons/icon-128x128.png",
+        "/movies-web-app/assets/icons/icon-144x144.png",
+        "/movies-web-app/assets/icons/icon-152x152.png",
+        "/movies-web-app/assets/icons/icon-192x192.png",
+        "/movies-web-app/assets/icons/icon-384x384.png",
+        "/movies-web-app/assets/icons/icon-512x512.png",
+        "/movies-web-app/assets/icons/icon-72x72.png",
+        "/movies-web-app/assets/icons/icon-96x96.png",
+        "/movies-web-app/fa-brands-400.065e813c6c3b45d6d439.svg",
+        "/movies-web-app/fa-brands-400.58f744c7b36f2f39d2e3.ttf",
+        "/movies-web-app/fa-brands-400.8fd833151004f32dc761.eot",
+        "/movies-web-app/fa-brands-400.c6b883559b08b0953131.woff",
+        "/movies-web-app/fa-brands-400.fc15c3c4caed4fce7deb.woff2",
+        "/movies-web-app/fa-regular-400.5be078ce44599ce04fb9.ttf",
+        "/movies-web-app/fa-regular-400.723589b6da08cd65a2fe.eot",
+        "/movies-web-app/fa-regular-400.7af11a8a0d31e5ee0ef1.woff2",
+        "/movies-web-app/fa-regular-400.b43a2ad9cdc72cdd8016.svg",
+        "/movies-web-app/fa-regular-400.bb8e17bc95da55f6b37c.woff",
+        "/movies-web-app/fa-solid-900.076dbe0b3ab9468a8f53.ttf",
+        "/movies-web-app/fa-solid-900.3444dfa507a2daa40ae0.woff2",
+        "/movies-web-app/fa-solid-900.5d737977d140db5d16de.eot",
+        "/movies-web-app/fa-solid-900.cefdfa5d3e0767a700dd.woff",
+        "/movies-web-app/fa-solid-900.d279d01b1659466bfdbf.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/movies-web-app/737.2a5822c6754191410402.js": "b6797c38f59ae1294ecb5a116c5a8329d9c92427",
+    "/movies-web-app/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/movies-web-app/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/movies-web-app/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/movies-web-app/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/movies-web-app/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/movies-web-app/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/movies-web-app/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/movies-web-app/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/movies-web-app/fa-brands-400.065e813c6c3b45d6d439.svg": "ceebfc66fb0358816825f813ce74297f190b0c71",
+    "/movies-web-app/fa-brands-400.58f744c7b36f2f39d2e3.ttf": "c7b23f955a9547a6d0da2dfb14e16a0052bd32f1",
+    "/movies-web-app/fa-brands-400.8fd833151004f32dc761.eot": "ae55054f540b661779b9db867a5a2cb3b13ca745",
+    "/movies-web-app/fa-brands-400.c6b883559b08b0953131.woff": "69c28a9dab2854c358d1b32f0abbdb0b3b7662de",
+    "/movies-web-app/fa-brands-400.fc15c3c4caed4fce7deb.woff2": "f4e9de0d00b822a00c2a48e5e25a78f281fc8b82",
+    "/movies-web-app/fa-regular-400.5be078ce44599ce04fb9.ttf": "3ab847ae619711ccc32d45ecdceca3cc092ae9ff",
+    "/movies-web-app/fa-regular-400.723589b6da08cd65a2fe.eot": "0e3721c3fb964c5578fbeba5a5ea5fcf5910f12f",
+    "/movies-web-app/fa-regular-400.7af11a8a0d31e5ee0ef1.woff2": "5e3d47f9e327334619cf59adf343757f1f7b59b2",
+    "/movies-web-app/fa-regular-400.b43a2ad9cdc72cdd8016.svg": "a50c2d4105952ac3e4e19cc302e2e85c2fa83955",
+    "/movies-web-app/fa-regular-400.bb8e17bc95da55f6b37c.woff": "2cbb3b6dcefd062f238a549a51aabf3811da7c97",
+    "/movies-web-app/fa-solid-900.076dbe0b3ab9468a8f53.ttf": "a6d0c1566e4a6162948a99d037e4b7d8d14bc495",
+    "/movies-web-app/fa-solid-900.3444dfa507a2daa40ae0.woff2": "a10cafe62100054468dd9820c9f80acbafc30685",
+    "/movies-web-app/fa-solid-900.5d737977d140db5d16de.eot": "e01645b2018b988a2d62c3e19d1da71b3675e5d7",
+    "/movies-web-app/fa-solid-900.cefdfa5d3e0767a700dd.woff": "41c008372cb9eca0ab66813a0dfb80b08daf6ec4",
+    "/movies-web-app/fa-solid-900.d279d01b1659466bfdbf.svg": "76dd54ebd76a592af9fe0cfac14c83eb5aafadae",
+    "/movies-web-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/movies-web-app/index.html": "d0dfcbf0408ac0d76b5738775317ce71be9f9246",
+    "/movies-web-app/main.645367b6138fdee9a62c.js": "89702be7bcfc5417eab615647f7afa2afc5db5e8",
+    "/movies-web-app/manifest.webmanifest": "aab33ea3485af4a2745c8dab289a7d8faac53509",
+    "/movies-web-app/polyfills.e6e5e82ebe01133d698d.js": "673ddeefe2adc6f8c018f3c688b393c2f49f9138",
+    "/movies-web-app/runtime.f385d65f8a84df9e1323.js": "eb30765597b8ca1e1e2411b8e8809a18cd59f59e",
+    "/movies-web-app/scripts.f22ea8f40662ea720806.js": "a706a951abe05a4a7dfa9b826b098ee12e4a949e",
+    "/movies-web-app/styles.0b83c456cc224dfa6f12.css": "a81a14cf045eb55daf8663b59587028d453720ba"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
