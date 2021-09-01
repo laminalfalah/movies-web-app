@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1630530154736,
+  "timestamp": 1630531194830,
   "index": "/movies-web-app/index.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "/movies-web-app/737.2a5822c6754191410402.js",
         "/movies-web-app/favicon.ico",
         "/movies-web-app/index.html",
-        "/movies-web-app/main.645367b6138fdee9a62c.js",
+        "/movies-web-app/main.1d5f1c3fa32621a2f7f4.js",
         "/movies-web-app/manifest.webmanifest",
         "/movies-web-app/polyfills.e6e5e82ebe01133d698d.js",
         "/movies-web-app/runtime.f385d65f8a84df9e1323.js",
@@ -85,8 +85,8 @@
     "/movies-web-app/fa-solid-900.cefdfa5d3e0767a700dd.woff": "41c008372cb9eca0ab66813a0dfb80b08daf6ec4",
     "/movies-web-app/fa-solid-900.d279d01b1659466bfdbf.svg": "76dd54ebd76a592af9fe0cfac14c83eb5aafadae",
     "/movies-web-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/movies-web-app/index.html": "d0dfcbf0408ac0d76b5738775317ce71be9f9246",
-    "/movies-web-app/main.645367b6138fdee9a62c.js": "89702be7bcfc5417eab615647f7afa2afc5db5e8",
+    "/movies-web-app/index.html": "ed3d2f9df6f2c9e457796a9829c5d3dfdd401692",
+    "/movies-web-app/main.1d5f1c3fa32621a2f7f4.js": "68edaa9d61cd4e94d10edd44373b4789795ca61b",
     "/movies-web-app/manifest.webmanifest": "aab33ea3485af4a2745c8dab289a7d8faac53509",
     "/movies-web-app/polyfills.e6e5e82ebe01133d698d.js": "673ddeefe2adc6f8c018f3c688b393c2f49f9138",
     "/movies-web-app/runtime.f385d65f8a84df9e1323.js": "eb30765597b8ca1e1e2411b8e8809a18cd59f59e",
